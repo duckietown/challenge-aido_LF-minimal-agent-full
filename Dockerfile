@@ -16,6 +16,6 @@ RUN python3 -m pip uninstall dataclasses -y
 
 COPY . .
 
-RUN PYTHONPATH=. python -c "from agent_full import *"
+RUN node-launch --config node_launch.yaml --check
 
-ENTRYPOINT ["python3", "agent_full.py"]
+ENTRYPOINT ["node-launch", "--config", "node_launch.yaml"]

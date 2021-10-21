@@ -1,0 +1,3 @@
+node: agent_full.MyAgent
+protocol: aido_schemas.protocol_agent_DB20_fullstate
+config: {}
