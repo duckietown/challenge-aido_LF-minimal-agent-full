@@ -10,4 +10,3 @@ protocol: aido5-db20-full-z2
 user-label: "minimal-agent-full"
 # any JSON payload
 user-payload: {}
-
