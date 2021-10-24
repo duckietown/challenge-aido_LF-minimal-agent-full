@@ -6,6 +6,7 @@ challenge:
 
 # conventions + format
 protocol: aido5-db20-full-z2
+validation_challenge: aido-hello-sim-full-validation
 # any user label - displayed in "challenges list"
 user-label: "minimal-agent-full"
 # any JSON payload
